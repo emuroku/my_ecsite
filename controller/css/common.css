@@ -1,0 +1,58 @@
+body{
+    background-color: #fffff0;
+    font-family: none;
+    font-size: 16px;
+}
+
+h3{
+    color: #1F91BE;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.block {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+/*ヘッダーのスタイル指定*/
+.header_item{
+    display: flex;
+    width: 1400px;
+    height: 110px;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    border-bottom-color: #c0c0c0;
+    padding: 10px 0;
+}
+
+/*ヘッダーのアイコン部分のスタイル指定*/
+.header_icon{
+    height: 30px;
+    margin: 0 5px 10px 10px;
+    display: flex;
+}
+
+/*ロゴと検索フォームのスタイル指定*/
+.header_logo_search{
+    display: flex;
+    
+}
+
+.img_logo{
+    margin-right: 30px;
+    height: 75px;
+}
+
+.header_end_item{
+    display: flex;
+    /*margin-top: 25px;*/
+    justify-content: center;
+    align-items: center;
+}

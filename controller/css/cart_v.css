@@ -1,0 +1,114 @@
+/*コンテンツ部分*/
+.contents_cart{
+    width: 960px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*ダイアログ表示部分*/
+.dialog_cart{
+    display: block;
+}
+
+/*選択商品の1ブロック*/
+.block_cartitem{
+    display: flex;
+    margin: 20px;
+    border-bottom: 2px dotted #c0c0c0;
+    padding-bottom: 10px;
+}
+
+/*商品画像部分のスタイル*/
+.img_cart{
+    width: 200px;
+    height: 160px;
+    position: relative;
+    object-fit: cover;
+    margin: 0 20px;
+}
+
+/*商品情報（商品名＋価格）*/
+.item_info{
+    display: block;
+    margin: 0 auto 0 0;
+    align-content: center;
+    padding: 20px 0 20px 0;
+}
+
+.cart_dialog{
+    color: #FF0000;
+}
+
+/*サイドボタン（削除ボタン＋個数変更ボックス&ボタン）*/
+.side_button{
+    margin: 0 0 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+/*ボタンのスタイル*/
+.button{
+    padding: 5px 50px;
+    border-radius : 5px; 
+    display       : inline-block;
+    text-align    : center;      /* 文字位置   */
+    background    : #1F91BE;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    border-style: none;
+    
+}
+
+/*購入ボタンのスタイル*/
+.button_buy{
+    padding: 10px 100px;
+    border-radius : 8px; 
+    font-size: 18px;
+    display       : inline-block;
+    text-align    : center;      /* 文字位置   */
+    background    : #1F91BE;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    border-style: none;
+    
+}
+
+.buy{
+    text-align: center;
+}
+
+/*削除ボタンの配置*/
+.delete_button{
+    text-align: right;
+}
+
+/*個数変更入力部分のスタイル*/
+.input_quantity{
+    width: 20px;
+    margin: 0 10px;
+}
+
+/*個数変更ボックス&ボタン*/
+.quantity{
+    padding-bottom: 10px;
+    padding-top: 60px;
+    display: flex;
+}
+
+/*合計金額表示*/
+.total_fee{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/*ショッピングに戻る*/
+.back_to_list{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+}
+
+/*エラーメッセージ*/
+.err_msg{
+    color: #FF0000;
+}

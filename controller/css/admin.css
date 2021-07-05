@@ -1,0 +1,27 @@
+h2 {
+    border-top: 2px double;
+    padding: 5px 0;
+}
+
+input,
+select {
+    margin: 5px;
+}
+
+table {
+    width: 1400px;
+    border-collapse: collapse;
+}
+
+table,
+tr,
+th,
+td {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.private_data{
+    background-color: #cccccc;
+}

@@ -1,0 +1,258 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    min-width: 960px;
+}
+
+.search_item{
+    display: flex;
+    height: 25px;
+    margin-top: 25px;
+}
+
+/*ダイアログ表示*/
+.dialog{
+    width: 1200px;
+    margin:auto;
+    margin-bottom: 20px;
+    color: #FF0000;
+    font-size: 16px;
+}
+
+/*ヘッダーバナー*/
+.header_banner{
+    width: 840px;
+    margin: auto;
+    
+}
+
+.slider{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+ 
+.slider__content{
+    min-width: 100%;
+    animation: sliderAnime 12s ease-in-out infinite;
+}
+
+.img_with_label {
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    width: 50px;
+    left: 0;
+    
+}
+
+  
+/*@keyframes sliderAnime{*/
+/*    0%{*/
+ 
+/*    }*/
+/*    16.6%{*/
+/*        transform: translateX(0);*/
+/*    }*/
+/*    33.3%{*/
+/*        transform: translateX(-100%);*/
+/*    }*/
+/*    50%{*/
+/*        transform: translateX(-100%);*/
+/*    }*/
+/*    66.6%{*/
+/*        transform: translateX(-200%);*/
+/*    }*/
+/*    83.2%{*/
+/*        transform: translateX(-200%);*/
+/*    }*/
+/*    100%{*/
+/*        transform: translateX(0);*/
+/*    }*/
+/*} */
+ 
+.slider__img{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+/*ナビゲーション部分*/
+.ul_nav{
+    margin: 0 30px 0 0;
+    width: 250px;
+    color: #6CBAD8;
+}
+
+/*ナビ部分：カテゴリのリスト*/
+.list_category{
+    list-style-type: none;
+}
+
+/*中央コンテンツ(ナビゲーション+メインコンテンツ）*/
+.contents{
+    display: flex;
+}
+
+/*ナビゲーション*/
+nav{
+    width: 250px;
+    margin-left: 80px;
+}
+
+/*メインコンテンツ（絞り込み検索＋商品一覧）*/
+.main_contents{
+    
+}
+
+/*絞り込み検索部分*/
+.refined_search{
+    background-color: #FCF1D3;
+    width: auto;
+    border-radius: 30px;
+    border: 2px #000000;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.form_refined_search{
+    text-align: center;
+}
+
+/*絞り込み検索部分タイトルのスタイル指定*/
+.refined_search_title{
+    text-align: center;
+    margin: 10px;
+}
+
+/*絞り込み検索ボタン*/
+.button_refined_search{
+    padding: 5px 100px;
+    border-radius : 8px; 
+    font-size: 18px;
+    display       : inline-block;
+    text-align    : center;      /* 文字位置   */
+    background    : #1F91BE;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    border-style: none;
+    margin: 10px 0;
+
+}
+
+
+/*商品一覧タイトル＋ソートプルダウン*/
+.item_list_header{
+    
+}
+
+.sort{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sort_select{
+	padding: 7px 10px 7px 10px;
+	font-size: 93%;
+	line-height: 1.1em;
+	border-radius: 5px;
+	
+}
+
+/*ジャンル名表示のスタイル*/
+.genre{
+    margin: 0 0 0 80px;
+}
+
+/*商品一覧の画像のスタイル*/
+.item_list_img{
+    width: 200px;
+    height: 160px;
+    position: relative;
+    object-fit: cover;
+}
+
+.item_list_top{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 20px 0 0 80px;
+}
+
+/*商品一覧*/
+.item_list{
+    display: flex;
+    width: 960px;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    
+}
+
+/*リスト上の１商品のひとかたまり*/
+.block_item{
+    margin: 20px;
+    max-width: 200px;
+}
+
+/*商品購入情報部分（ポップアップ＋購入ボタン）*/
+.purchase_info{
+    display: flex;
+}
+
+/*ポップアップ部分（商品名＋値札）*/
+.pop_up{
+    
+}
+
+.soldout{
+    color: #FF0000;
+}
+
+/*フッター*/
+footer{
+    
+    border-top: solid 1px #cccccc;
+    height: 150px;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-top: 120px;
+    width: 1400px;
+    
+}
+
+/*フッターの各要素を下部中央へ固定*/
+.footer_item{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*フッターのメニュー表示のスタイルを指定*/
+.ul_footer{
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+/*ヘッダー、フッターメニュー用のリストデザインを指定*/
+.list_menu{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #dcdcdc;
+    padding: 0;
+}
+
+/*コピーライト表記のデザインを指定*/
+.copyright{
+    font-size: 14px;
+    color: #a9a9a9;
+    text-align: center;
+    margin: 40px 0;
+}
+

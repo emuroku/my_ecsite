@@ -1,0 +1,64 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    min-width: 960px;
+}
+
+/*商品画像のスタイル*/
+.item_info_img{
+    width: 360px;
+    height: 280px;
+    position: relative;
+    object-fit: cover;
+}
+
+/*商品画像+テキスト部分のスタイル*/
+.block_iteminfo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    margin-top: 80px;
+}
+
+/*テキスト部分のスタイル*/
+.block_item_textinfo{
+    display: flex;
+    margin-left: 40px;
+    height: 280px;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+
+
+/*カートに入れるボタン*/
+.button_cart{
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    background-color: #1F91BE;
+    width: 280px;
+    height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:100%;
+    border-radius: 0.5em;
+    border: none;
+    margin-top: auto;
+}
+
+/*売り切れ表示*/
+.sold_out{
+    font-weight: 100;
+    color: #FF0000;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*フッター*/
+footer{
+}
+
